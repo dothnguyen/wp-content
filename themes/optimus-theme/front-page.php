@@ -5,7 +5,12 @@
     } elseif ( 'page' == get_option( 'show_on_front' ) ) {
 
  get_header(); ?>
+
 		<?php echo do_shortcode("[image-carousel]"); ?>
+
+		<!--Search form-->
+		<?php get_search_form(); ?>
+
 
 	<div id="primary" class="content-area col-sm-12 col-md-12 col-lg-12">
 		<main id="main" class="site-main" role="main">
