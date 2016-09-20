@@ -17,6 +17,7 @@
 
 <?php wp_head(); ?>
 
+	<!--Start of Facebook Feed Script-->
 	<div id="fb-root"></div>
 	<script>(function(d, s, id) {
 			var js, fjs = d.getElementsByTagName(s)[0];
@@ -26,6 +27,17 @@
 			fjs.parentNode.insertBefore(js, fjs);
 		}(document, 'script', 'facebook-jssdk'));
 	</script>
+	<!--End of Facebook Feed Script-->
+
+	<!--Start of Zopim Live Chat Script-->
+	<script type="text/javascript">
+		window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
+			d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+		_.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute("charset","utf-8");
+			$.src="//v2.zopim.com/?4C7HTSYHKksYLDHTyAKX96IPwgKB9eOL";z.t=+new Date;$.
+				type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
+	</script>
+	<!--End of Zopim Live Chat Script-->
 
 </head>
 
@@ -101,6 +113,8 @@
 		        ?>
 		    </div>
 		</nav><!-- .site-navigation -->
+
+
 
 	<div id="content" class="site-content container"><?php
             global $post;

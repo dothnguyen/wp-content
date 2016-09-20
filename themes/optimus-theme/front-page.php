@@ -5,6 +5,7 @@
     } elseif ( 'page' == get_option( 'show_on_front' ) ) {
 
  get_header(); ?>
+		<?php echo do_shortcode("[image-carousel]"); ?>
 
 	<div id="primary" class="content-area col-sm-12 col-md-12 col-lg-12">
 		<main id="main" class="site-main" role="main">
@@ -26,8 +27,8 @@
 
 					<div class="home-widget-area row">
 
-						<div class="col-sm-6 col-md-4 home-widget">
-							<?php if( is_active_sidebar('home1') ) dynamic_sidebar( 'home1' ); ?>
+						<div class="col-sm-6 col-md-4 facebook-feed">
+							<div class="fb-page" data-href="https://www.facebook.com/Optimus-Property-311845079176567/" data-tabs="timeline" data-width="375" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Optimus-Property-311845079176567/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Optimus-Property-311845079176567/">Optimus Property</a></blockquote></div>
 						</div>
 
 						<div class="col-sm-6 col-md-4 home-widget">
