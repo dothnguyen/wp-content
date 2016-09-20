@@ -114,6 +114,8 @@
 		    </div>
 		</nav><!-- .site-navigation -->
 
+
+
 	<div id="content" class="site-content container"><?php
             global $post;
             if( is_singular() && get_post_meta($post->ID, 'site_layout', true) ){
