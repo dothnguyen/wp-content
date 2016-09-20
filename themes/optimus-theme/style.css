@@ -12,4 +12,34 @@
 /*This theme inherits wp-rootstrap theme*/
 @import url("../unite/style.css");
 
+.navbar.navbar-default {
+    background-color: #5DADE2;
+    font-weight: 200;
+}
 
+.contact-info-blocks {
+    text-align: right;
+    margin-top: 35px;
+}
+
+.contact-info-blocks > div {
+    display: inline-block;
+    margin: auto 0;
+    padding: 0 20px;
+    border-right: 1px solid #efefef;
+    color: #999;
+    text-align: left;
+}
+
+.contact-info-blocks > div > span {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #666;
+}
+
+#colophon {
+    background-color: #5DADE2;
+    padding: 10px 0;
+    margin-top: 20px;
+}
