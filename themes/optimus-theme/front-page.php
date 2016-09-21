@@ -9,7 +9,7 @@
 		<?php echo do_shortcode("[image-carousel]"); ?>
 
 		<!--Search form-->
-		<?php get_search_form(); ?>
+		<?php get_template_part("searchform", "property") ?>
 
 
 	<div id="primary" class="content-area col-sm-12 col-md-12 col-lg-12">

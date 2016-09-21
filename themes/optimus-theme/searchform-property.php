@@ -19,7 +19,7 @@
 <div class="search-wrapper col-md-12">
 <div class="search-header">Find your properties</div>
 <div class="search-form">
-<form method="post" id="advanced-searchform" role="search" action="<?php echo esc_url( home_url( '/' ) ); ?>">
+<form method="get" id="advanced-searchform" role="search" action="<?php echo esc_url( home_url( '/' ) ); ?>">
 
   <div class="row">
     <div class="col-md-4 col-sm-6 col-xs-12">
@@ -89,8 +89,11 @@
 
 
     <div class="col-md-3 col-sm-6 col-xs-12">
-      <a href="results.html" id="search" data-style="slide-left" class="btn btn-lg btn-raised ripple-effect btn-primary btn-block pull-right"> <i class="ti-search"></i>Search</a>
+      <button type="submit" class="btn btn-lg btn-raised ripple-effect btn-primary btn-block pull-right"> <i class="ti-search"></i>Search</button>
     </div>
+
+    <input type="hidden" name="s">
+    <input type="hidden" name="post_type" value="property">
   </div>
 
 </form>
