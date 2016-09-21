@@ -47,7 +47,7 @@
 		<?php do_action( 'before' ); ?>
 		<header id="masthead" class="site-header col-sm-12" role="banner">
 
-				<div class="site-branding col-md-4">
+				<div class="site-branding col-md-3">
 					<?php /*if( get_header_image() != '' ) : ?>
 
 						<div id="logo">
@@ -69,7 +69,7 @@
 					<?php */ endif; // header image was removed (again) ?>
 				</div>
 
-			<div class="social-header col-md-8">
+			<div class="social-header col-md-9">
 				<div class="contact-info-blocks hidden-sm hidden-xs">
 					<div>
 						<i class="fa fa-phone"></i> Free Line For You
