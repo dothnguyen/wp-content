@@ -105,7 +105,17 @@ hr.section-divider:after {
     font-size: 30px;
 }
 
-.bedrooms {
+.icon-text {
+    color: #54397E;
+    font-size: 19px;
+}
+
+.price-text {
     color: #54397E;
     font-size: 30px;
+}
+
+.address-row * {
+    font-size: 20px;
+    color: #54397E;
 }

@@ -9,6 +9,8 @@ $bedrooms =  get_post_meta(get_the_ID(), 'bedrooms', true);
 
 $garage = get_post_meta(get_the_ID(), 'garages', true);
 
+$formatted_address = get_post_meta(get_the_ID(), 'formatted_address', true);
+
 ?>
 
 
@@ -21,9 +23,9 @@ $garage = get_post_meta(get_the_ID(), 'garages', true);
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-4"><i class="fa fa-bed bedrooms"> <?php echo $bedrooms ?> </i></div>
-			<div class="col-md-4">col 2</div>
-			<div class="col-md-4"><i class="fa fa-car bedrooms" > <?php echo $garage ?> </i></div>
+			<div class="col-xs-4 col-sm-4 col-md-4"><i class="fa fa-bed icon-text "> <?php echo $bedrooms ?></i></div>
+			<div class="col-xs-4 col-sm-4 col-md-4"><i class="fa fa-tint icon-text center-block" > <?php echo $garage ?></i></div>
+			<div class="col-xs-4 col-sm-4 col-md-4"><i class="fa fa-car icon-text center-block" > <?php echo $garage ?></i></div>
 		</div>
 	</div>
 	<div class="col-md-7">
@@ -37,8 +39,12 @@ $garage = get_post_meta(get_the_ID(), 'garages', true);
 			<?php endif; ?>
 		</header><!-- .entry-header -->
 
+		<div class="address-row">
+			<span class="fa fa-map-marker"> <?php echo $formatted_address?></span>
+		</div>
+
 		<div class="price-row">
-			<span><?php echo '$' . $price ?></span>
+			<span class="price-text"><?php echo '$' . $price ?></span>
 		</div>
 
 		<?php if ( is_search() ) : // Only display Excerpts for Search ?>
