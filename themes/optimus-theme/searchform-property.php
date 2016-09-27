@@ -33,13 +33,7 @@
     </div>
     <div class="col-md-4 col-sm-6 col-xs-12">
       <div class="form-group">
-        <select class="form-control" id="selectPriceMin">
-          <option>Price min.</option>
-          <option>100 000</option>
-          <option>150 000</option>
-          <option>200 000</option>
-          <option>300 000</option>
-        </select>
+        <input class="form-control" type="text" name="postcode" placeholder="Postcode" value="<?php if (isset($_GET['postcode'])) echo $_GET['postcode']; ?>">
       </div>
     </div>
     <div class="col-md-4 col-sm-6 col-xs-12">

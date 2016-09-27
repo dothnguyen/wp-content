@@ -91,6 +91,15 @@ function advanced_search_query( $query ) {
             }
         }
 
+        // postcode
+        if (isset($_GET['postcode']) && !empty($_GET['postcode'])) {
+            $meta_query[] = array(
+                'key'     => 'postal_code',
+                'value'   => $_GET['postcode'],
+                'compare' => '='
+            );
+        }
+
         // price range
         if (isset($_GET['price_range']) && !empty($_GET['price_range'])) {
             $price_range = $_GET['price_range'];
