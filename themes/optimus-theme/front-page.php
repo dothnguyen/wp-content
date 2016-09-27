@@ -6,6 +6,7 @@
 
  get_header(); ?>
 
+<div class="ui-widget-shadow">
 
 		<!--carousel slide show -->
 
@@ -118,6 +119,7 @@
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
+</div>
 
 <?php
 	get_footer();
