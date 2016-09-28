@@ -21,8 +21,8 @@
 
 			<div class="carousel-inner">
 
-				<div class="item" id="cptbc-item-1">
 
+				<div class="item" id="cptbc-item-1">
 					<div class="carousel-caption">
 						<h4>House</h4>
 						<p>Beautifully presented this extensively renovated highset residence is situated in a commanding corner position, in the highly sought-after suburb of Wishart.
@@ -30,14 +30,19 @@
 							The upper level is a traditional layout with great spaces and flowing hardwood timber flooring continuing into 3 very generous bedrooms; the large main with built in wardrobes.
 
 							The downstairs portion of the home is a greatly versatile</p>
+						<a class="button" href="http://thanhnguyend.sgedu.site/optimus_wp/appointment/">Make An Appointment Now!</a>
 					</div>
+
 				</div>
 
 				<div class="item" id="cptbc-item-2">
 					<div class="carousel-caption">
 						<h4>Apartment</h4>
 						<p>This fully furnished, two bedroom , two Bathroom Apartment,features designer kitchen and spacious living area. The large bedrooms with
-							built in robes with luxurious bathrooms including corner bath tub. Superb views of the Botanical Garden, Brisbane River, Brisbane City &amp; Southbank are seen from this spectacular Apartment.</p></div>				</div>
+							built in robes with luxurious bathrooms including corner bath tub. Superb views of the Botanical Garden, Brisbane River, Brisbane City &amp; Southbank are seen from this spectacular Apartment.</p>
+						<a class="button" href="http://thanhnguyend.sgedu.site/optimus_wp/appointment/">Make An Appointment Now!</a>
+					</div>
+				</div>
 
 				<div class="item active" id="cptbc-item-3">
 					<div class="carousel-caption">
@@ -49,6 +54,7 @@
 							Modern kitchen with gas cooking and dishwasher with sliding door which opening onto a private undercover pergola<br>
 							European style laundry<br>
 							Main modern bathroom with bath tub and separate shower and 2 WCís/</p>
+						<a class="button" href="http://thanhnguyend.sgedu.site/optimus_wp/appointment/">Make An Appointment Now!</a>
 					</div>
 				</div>
 
@@ -59,12 +65,15 @@
 						<p>Boasting Ocean views this top floor apartment brings you the best of both Surfers Paradise and Broadbeach. You won't need to get out of bed to check the surf!
 
 							You will have access to your own spa as well as the building's pool, sauna, gym, BBQ and tennis court.</p>
+						<a class="button" href="http://thanhnguyend.sgedu.site/optimus_wp/appointment/">Make An Appointment Now!</a>
 					</div>
 				</div>
 			</div>
 
 			<a class="left carousel-control" href="#cptbc_1" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+
 			<a class="right carousel-control" href="#cptbc_1" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+
 
 		</div>
 
