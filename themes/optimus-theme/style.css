@@ -13,195 +13,197 @@
 @import url("../unite/style.css");
 
 .ui-widget-shadow {
-    -moz-box-shadow:    1px 2px 4px 5px #d5d5d5;
-    -webkit-box-shadow: 1px 2px 4px 5px #d5d5d5;
-    box-shadow:         1px 2px 4px 5px #d5d5d5;
-    width: 100%;
-    min-height: 1500px;
+  -moz-box-shadow:    1px 2px 4px 5px #d5d5d5;
+  -webkit-box-shadow: 1px 2px 4px 5px #d5d5d5;
+  box-shadow:         1px 2px 4px 5px #d5d5d5;
+  width: 100%;
+  min-height: 1700px;
 }
 
 .btn-primary, .label-primary {
-    background-color: #00a0d2;
-    border-color: #00a0d2;
+  background-color: #00a0d2;
+  border-color: #00a0d2;
 }
 
 .navbar.navbar-default {
-    background-color: #5DADE2;
-    font-weight: 200;
+  background-color: #5DADE2;
+  font-weight: 200;
 }
 
 .contact-info-blocks {
-    text-align: right;
-    margin-top: 35px;
+  text-align: right;
+  margin-top: 35px;
 }
 
 .contact-info-blocks > div {
-    display: inline-block;
-    margin: auto 0;
-    padding: 0 20px;
-    border-right: 1px solid #efefef;
-    color: #999;
-    text-align: left;
+  display: inline-block;
+  margin: auto 0;
+  padding: 0 20px;
+  border-right: 1px solid #efefef;
+  color: #999;
+  text-align: left;
 }
 
 .contact-info-blocks > div > span {
-    display: block;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    color: #666;
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: #666;
 }
 
 #colophon {
-    background-color: #5DADE2;
-    padding: 10px 0;
-    margin-top: 20px;
+  background-color: #5DADE2;
+  padding: 10px 0;
+  margin-top: 20px;
 }
 
 
 .search-wrapper {
-    background-color: #5DADE2;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-bottom: 15px;
+  background-color: #5DADE2;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  box-shadow: 1px 2px 2px black;
 
 }
 
 .search-header {
-    color: #fff;
+  color: #fff;
 }
 
 .search-form {
-    line-height: 1.375;
+  line-height: 1.375;
 }
 
 .search-form .form-group {
-    margin-top: 10px;
-    margin-bottom: 15px;
+  margin-top: 10px;
+  margin-bottom: 15px;
 }
 
 .search-form select, .search-form select.form-control {
-    padding-right: 0;
-    padding-left: 0;
-    box-shadow: inset 0 -1px 0 #dddddd;
-    font-size: 16px;
-    line-height: 1.5;
+  padding-right: 0;
+  padding-left: 0;
+  box-shadow: inset 0 -1px 0 #dddddd;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 .entry-title {
-    font-size: 40px;
-    font-weight: 200;
-    color: #54397E;
+  font-size: 40px;
+  font-weight: 200;
+  color: #54397E;
 }
 
 hr.section-divider:after {
-    z-index: 10000;
-    content: "\f015";
-    font-family: FontAwesome;
-    color: #54397E;
-    position: absolute;
-    top: -23px;
-    left: 50%;
-    right: 50%;
-    width: 40px;
-    height: 30px;
-    margin-left: -20px;
-    font-size: 30px;
+  z-index: 10000;
+  content: "\f015";
+  font-family: FontAwesome;
+  color: #54397E;
+  position: absolute;
+  top: -23px;
+  left: 50%;
+  right: 50%;
+  width: 40px;
+  height: 30px;
+  margin-left: -20px;
+  font-size: 30px;
 }
 
 .icon-text {
-    color: #54397E;
-    font-size: 19px;
+  color: #54397E;
+  font-size: 19px;
 }
 
 .price-text {
-    color: #54397E;
-    font-size: 30px;
+  color: #54397E;
+  font-size: 30px;
 }
 
 .address-row * {
-    font-size: 20px;
-    color: #54397E;
+  font-size: 20px;
+  color: #54397E;
 }
 
 #cptbc-item-1 {
-    background-image: url("images/house/Richards_House.jpg");
-    max-width: 100%;
-    height:550px;
+  background-image: url("images/house/Richards_House.jpg");
+  max-width: 100%;
+  height:550px;
 
 }
 
 #cptbc-item-2 {
-    background-image: url("images/appartment/appartment.jpg");
-    max-width: 100%;
-    height:550px;
+  background-image: url("images/appartment/appartment.jpg");
+  max-width: 100%;
+  height:550px;
 
 }
 #cptbc-item-3 {
-    background-image: url("images/town house/townhouse.jpg");
-    max-width: 100%;
-    height:550px;
+  background-image: url("images/town house/townhouse.jpg");
+  max-width: 100%;
+  height:550px;
 
 }
 #cptbc-item-4 {
-    background-image: url("images/villa/villas.jpg");
-    max-width: 100%;
-    height:550px;
+  background-image: url("images/villa/villas.jpg");
+  max-width: 100%;
+  height:550px;
 
 }
 .carousel-caption h4 {
-    background: #54397e;
-    background: rgba(40, 63, 165, 0.7);
-    padding: 15px;
-    color: #fff;
-    max-width: 55%;
-    margin-bottom: 4px;
+  background: #54397e;
+  background: rgba(40, 63, 165, 0.7);
+  padding: 15px;
+  color: #fff;
+  max-width: 55%;
+  margin-bottom: 4px;
 }
 
 .button {
-    display: inline-block;
-    text-align: center;
-    vertical-align: middle;
-    padding: 12px 24px;
-    border: 4px solid #798ed1;
-    border-radius: 8px;
-    background: #83a6de;
-    background: -webkit-gradient(linear, left top, left bottom, from(#83a6de), to(#1244e8));
-    background: -moz-linear-gradient(top, #83a6de, #1244e8);
-    background: linear-gradient(to bottom, #83a6de, #1244e8);
-    -webkit-box-shadow: #268eff 3px 0px 10px 0px;
-    -moz-box-shadow: #268eff 3px 0px 10px 0px;
-    box-shadow: #268eff 3px 0px 10px 0px;
-    text-shadow: #0a257f 3px 1px 1px;
-    font: normal normal bold 20px arial;
-    color: #ffffff;
-    text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  padding: 12px 24px;
+  border: 4px solid #798ed1;
+  border-radius: 8px;
+  background: #83a6de;
+  background: -webkit-gradient(linear, left top, left bottom, from(#83a6de), to(#1244e8));
+  background: -moz-linear-gradient(top, #83a6de, #1244e8);
+  background: linear-gradient(to bottom, #83a6de, #1244e8);
+  -webkit-box-shadow: #268eff 3px 0px 10px 0px;
+  -moz-box-shadow: #268eff 3px 0px 10px 0px;
+  box-shadow: #268eff 3px 0px 10px 0px;
+  text-shadow: #0a257f 3px 1px 1px;
+  font: normal normal bold 20px arial;
+  color: #ffffff;
+  text-decoration: none;
 }
 .button:hover,
 .button:focus {
-    border: 4px solid #9db9ff;
-    background: #9dc7ff;
-    background: -webkit-gradient(linear, left top, left bottom, from(#9dc7ff), to(#1652ff));
-    background: -moz-linear-gradient(top, #9dc7ff, #1652ff);
-    background: linear-gradient(to bottom, #9dc7ff, #1652ff);
-    color: #ffffff;
-    text-decoration: none;
+  border: 4px solid #9db9ff;
+  background: #9dc7ff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#9dc7ff), to(#1652ff));
+  background: -moz-linear-gradient(top, #9dc7ff, #1652ff);
+  background: linear-gradient(to bottom, #9dc7ff, #1652ff);
+  color: #ffffff;
+  text-decoration: none;
 }
 .button:active {
-    background: #4f6485;
-    background: -webkit-gradient(linear, left top, left bottom, from(#4f6485), to(#1244e8));
-    background: -moz-linear-gradient(top, #4f6485, #1244e8);
-    background: linear-gradient(to bottom, #4f6485, #1244e8);
+  background: #4f6485;
+  background: -webkit-gradient(linear, left top, left bottom, from(#4f6485), to(#1244e8));
+  background: -moz-linear-gradient(top, #4f6485, #1244e8);
+  background: linear-gradient(to bottom, #4f6485, #1244e8);
 }
 .button:before{
-    content:  "\0000a0";
-    display: inline-block;
-    height: 24px;
-    width: 24px;
-    line-height: 24px;
-    margin: 0 4px -6px -4px;
-    position: relative;
-    top: 0px;
-    left: 0px;
-    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAACjElEQVRIie1UTWsTURQ9dzKpofQLobQFlxqENF1JG0GE6sKuRLDtTKaBkJUIRdwpba2g9ge48gMEUUyTbrUutFmk1X6Q7kxDgi1YUSmlpsGYiTXtuy7GCYnaSRu3PczAfe/dd8695z0ecIAKsFVK0DQNLpcL8Xi8KgHZalFRNWe7uyMs2+RtkBQIjQerU/k3uVceHhmdyed/8NbWFg8OXrlXDY+020JdXf2NQMB/yuE4hHw+j5yur1df7h9QvQMXpiKRHSEECyF4cvJlQVG149VwlZ1BX58fsn1H7e29+OhMd7cEAMyM6PTMNAgfFUWrJSIAQgCAYAKIAECABACABGFt7fPPaDRqjItVqyrqG5vGAn7/kMfTBYMIyGQyeD0VMZKYweYGM2ZjpnR+eWVl8V08fnYiNP6t1Jbzc3PzbNryP38stsiKqp0uWuTz+eBqd9/s6uo02vpdPTOXxZuZDB7cfwgQGa0TIEmS7nA4PhhDkgBgdXV1FkTzRYHCtjjS4XZ3mGQmSsdEhKbGRqhqPwRz0ZOlRKImGBy/FA4F31gd8tG2tjaZmf+VUybS2tpaNpfeTMsADu+2xxRw2O12ENFftpTG6XQat26PQZIIzEA2m/1SKBSGGXhhWZmiaifezs7yfhGdnmFF1TqtuM0OksvvlzMnPZ4mq+RkMoVsNlu83ImlxDqATxUFwqHg94aGhsc9PeeuNjc372pRMpnExsZX5HI5xBZjd3aEuBsOBTcs7TGherXaa9eHIqlUioUQltYIIXhkZPT5XnjL7qXi1Wpkm6w5nccGWlpanLJNlkGQyEw1Pui6rs8tLFx+9vTJq30JlKK/3ycRCQkSFZ8Dcwszi4lwUOylgwNUxC8cBKAS7hIWzwAAAABJRU5ErkJggg==") no-repeat left center transparent;
-    background-size: 100% 100%;
+  content:  "\0000a0";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  line-height: 24px;
+  margin: 0 4px -6px -4px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAACjElEQVRIie1UTWsTURQ9dzKpofQLobQFlxqENF1JG0GE6sKuRLDtTKaBkJUIRdwpba2g9ge48gMEUUyTbrUutFmk1X6Q7kxDgi1YUSmlpsGYiTXtuy7GCYnaSRu3PczAfe/dd8695z0ecIAKsFVK0DQNLpcL8Xi8KgHZalFRNWe7uyMs2+RtkBQIjQerU/k3uVceHhmdyed/8NbWFg8OXrlXDY+020JdXf2NQMB/yuE4hHw+j5yur1df7h9QvQMXpiKRHSEECyF4cvJlQVG149VwlZ1BX58fsn1H7e29+OhMd7cEAMyM6PTMNAgfFUWrJSIAQgCAYAKIAECABACABGFt7fPPaDRqjItVqyrqG5vGAn7/kMfTBYMIyGQyeD0VMZKYweYGM2ZjpnR+eWVl8V08fnYiNP6t1Jbzc3PzbNryP38stsiKqp0uWuTz+eBqd9/s6uo02vpdPTOXxZuZDB7cfwgQGa0TIEmS7nA4PhhDkgBgdXV1FkTzRYHCtjjS4XZ3mGQmSsdEhKbGRqhqPwRz0ZOlRKImGBy/FA4F31gd8tG2tjaZmf+VUybS2tpaNpfeTMsADu+2xxRw2O12ENFftpTG6XQat26PQZIIzEA2m/1SKBSGGXhhWZmiaifezs7yfhGdnmFF1TqtuM0OksvvlzMnPZ4mq+RkMoVsNlu83ImlxDqATxUFwqHg94aGhsc9PeeuNjc372pRMpnExsZX5HI5xBZjd3aEuBsOBTcs7TGherXaa9eHIqlUioUQltYIIXhkZPT5XnjL7qXi1Wpkm6w5nccGWlpanLJNlkGQyEw1Pui6rs8tLFx+9vTJq30JlKK/3ycRCQkSFZ8Dcwszi4lwUOylgwNUxC8cBKAS7hIWzwAAAABJRU5ErkJggg==") no-repeat left center transparent;
+  background-size: 100% 100%;
 }

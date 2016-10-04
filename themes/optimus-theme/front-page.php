@@ -109,11 +109,112 @@
 					<div class="home-widget-area row">
 
 						<div class="col-sm-6 col-md-4 facebook-feed">
-							<div class="fb-page" data-href="https://www.facebook.com/Optimus-Property-311845079176567/" data-tabs="timeline" data-width="375" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Optimus-Property-311845079176567/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Optimus-Property-311845079176567/">Optimus Property</a></blockquote></div>
+							<div class="fb-page" data-href="https://www.facebook.com/Optimus-Property-311845079176567/" data-tabs="timeline" data-height="1000px" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/Optimus-Property-311845079176567/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Optimus-Property-311845079176567/">Optimus Property</a></blockquote></div>
 						</div>
 
 						<div class="col-sm-6 col-md-8 home-widget">
-							<?php echo "PROPERTY" , do_shortcode("[property_overview]"); ?>
+							<div class="wpp_row_view wpp_property_view_result">
+								<div class="all-properties">
+
+									<div class="property_div property clearfix">
+
+										<div class="wpp_overview_left_column" style="width:180px; height: 180px; float:left; ">
+											<div class="property_image">
+												<a href="http://thanhnguyend.sgedu.site/optimus_wp/property/apartment-unit-3-bedrooms-for-sale/" title="Apartment for Rent" class="property_overview_thumb property_overview_thumb_tiny_thumb fancybox_image thumbnail" rel="apartment-for-rent">
+													<img width="200" height="200" src="http://thanhnguyend.sgedu.site/optimus_wp/wp-content/uploads/2016/09/appartment.jpg" alt="Apartment for Rent" style="width:170px;height:170px;">
+												</a>
+											</div>
+										</div>
+
+										<div class="wpp_overview_right_column" style="margin-left:200px; ">
+
+											<ul class="wpp_overview_data">
+												<li class="property_title"><a href="http://thanhnguyend.sgedu.site/optimus_wp/property/apartment-unit-3-bedrooms-for-sale/">Apartment for Rent</a></li>
+												<li class="property_discription"><b>Unit 2 Bedrooms, 2 Bathrooms, full furniture</b></li>
+												<li class="property_prices">$600 / per week</li>
+												<li class="property_tagline"> </li>
+												<li class="property_address">14 Le Grand st, Macgregor, QLD 4109</li>
+												<li class="property_phone_number">0432 382 386</li>
+											</ul>
+
+										</div>
+									</div>
+
+									<div class="property_div property clearfix">
+
+										<div class="wpp_overview_left_column" style="width:180px; height: 180px; float:left;">
+											<div class="property_image">
+												<a href="http://localhost:8888/OPTIMUS/wp-content/uploads/2016/09/Richards_House.jpg" title="House for Rent" class="property_overview_thumb property_overview_thumb_tiny_thumb fancybox_image thumbnail" rel="house-for-rent">
+													<img width="150" height="150" src="http://thanhnguyend.sgedu.site/optimus_wp/wp-content/uploads/2016/09/Richards_House.jpg" alt="House for Rent" style="width:170px;height:170px;">
+												</a>
+											</div>
+										</div>
+
+										<div class="wpp_overview_right_column" style="margin-left:200px; ">
+
+											<ul class="wpp_overview_data">
+												<li class="property_title">
+													<a href="http://localhost:8888/OPTIMUS/property/house-for-rent/">House for Rent</a></li>
+												<li class="property_discription"><b>Single Room Available!</b> </li>
+												<li class="property_prices">$150 / per week</li>
+												<li class="property_tagline"> </li>
+												<li class="property_address">14 Le Grand st, Macgregor, QLD 4109</li>
+												<li class="property_phone_number">0432 382 386</li>
+											</ul>
+
+										</div>
+									</div>
+
+									<div class="property_div property clearfix">
+
+										<div class="wpp_overview_left_column" style="width:180px; height: 180px; float:left;">
+											<div class="property_image">
+												<a href="http://localhost:8888/OPTIMUS/wp-content/uploads/2016/09/Richards_House.jpg" title="House for Rent" class="property_overview_thumb property_overview_thumb_tiny_thumb fancybox_image thumbnail" rel="house-for-rent">
+													<img width="150" height="150" src="http://thanhnguyend.sgedu.site/optimus_wp/wp-content/uploads/2016/09/townhouse.jpg" alt="House for Rent" style="width:170px;height:170px;">
+												</a>
+											</div>
+										</div>
+
+										<div class="wpp_overview_right_column" style="margin-left:200px; ">
+
+											<ul class="wpp_overview_data">
+												<li class="property_title">
+													<a href="http://localhost:8888/OPTIMUS/property/house-for-rent/">Town House for Rent</a></li>
+												<li class="property_discription"><b>MODERN RESIDENCE AND CLOSE TO ALL AMENITIES</b> </li>
+												<li class="property_prices">$500 / per week</li>
+												<li class="property_tagline"> </li>
+												<li class="property_address">14 Le Grand st, Macgregor, QLD 4109</li>
+												<li class="property_phone_number">0432 382 386</li>
+											</ul>
+
+										</div>
+									</div>
+
+									<div class="property_div property clearfix">
+
+										<div class="wpp_overview_left_column" style="width:180px; height: 180px; float:left;">
+											<div class="property_image">
+												<a href="http://localhost:8888/OPTIMUS/wp-content/uploads/2016/09/Richards_House.jpg" title="House for Rent" class="property_overview_thumb property_overview_thumb_tiny_thumb fancybox_image thumbnail" rel="house-for-rent">
+													<img width="150" height="150" src="http://thanhnguyend.sgedu.site/optimus_wp/wp-content/uploads/2016/09/villas4.jpg" alt="House for Rent" style="width:170px;height:170px;">
+												</a>
+											</div>
+										</div>
+
+										<div class="wpp_overview_right_column" style="margin-left:200px; ">
+
+											<ul class="wpp_overview_data">
+												<li class="property_title">
+													<a href="http://localhost:8888/OPTIMUS/property/house-for-rent/">Villa For Sale</a></li>
+												<li class="property_discription"><b>Boasting Ocean View</b> </li>
+												<li class="property_prices">$5,000,000</li>
+												<li class="property_tagline"> </li>
+												<li class="property_address">14 Le Grand st, Macgregor, QLD 4109</li>
+												<li class="property_phone_number">0432 382 386</li>
+											</ul>
+
+										</div>
+									</div>
+								</div>	</div>
 						</div>
 					</div>
 
