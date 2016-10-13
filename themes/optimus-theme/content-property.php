@@ -50,7 +50,7 @@ $formatted_address = get_post_meta(get_the_ID(), 'formatted_address', true);
 		<?php if ( is_search() ) : // Only display Excerpts for Search ?>
 		<div class="entry-summary">
 			<?php the_excerpt(); ?>
-			<p><a class="btn btn-primary read-more" href="<?php the_permalink(); ?>"><?php _e( 'Continue reading', 'unite' ); ?> <i class="fa fa-chevron-right"></i></a></p>
+			<p><a class="btn btn-primary read-more" href="<?php the_permalink(); ?>"><?php _e( 'Details', 'unite' ); ?> <i class="fa fa-chevron-right"></i></a></p>
 		</div><!-- .entry-summary -->
 		<?php endif; ?>
 

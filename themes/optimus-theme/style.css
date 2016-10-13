@@ -221,5 +221,9 @@ hr.section-divider:after {
 .entry-header .entry-title {
   font: 3em/1.5em "BenchNine",Arial,Helvetica,sans-serif;
   color: #29a9df;
+}
 
+.wpp_row_view .property_title a {
+  color: #29a9df;
+  text-decoration: none;
 }
