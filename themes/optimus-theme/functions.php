@@ -34,7 +34,7 @@ function advanced_search_query( $query ) {
         // list type
         if (isset($_GET['list_type']) && 'all' != $_GET['list_type'] ) {
             $meta_query[] = array(
-                'key'     => 'property_list_type',
+                'key'     => 'property_type',
                 'value'   => $_GET['list_type'],
                 'compare' => '='
             );
@@ -78,7 +78,7 @@ function advanced_search_query( $query ) {
         if (isset($_GET['garages']) && !empty($_GET['garages'])) {
             if ($_GET['garages'] < 3) {
                 $meta_query[] = array(
-                    'key'     => 'garages',
+                    'key'     => 'car_park',
                     'value'   => $_GET['garages'],
                     'compare' => '='
                 );

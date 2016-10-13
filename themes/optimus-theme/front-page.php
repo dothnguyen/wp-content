@@ -120,7 +120,7 @@
 
 										<div class="wpp_overview_left_column" style="width:180px; height: 180px; float:left; ">
 											<div class="property_image">
-												<a href="http://thanhnguyend.sgedu.site/optimus_wp/property/apartment-unit-3-bedrooms-for-sale/" title="Apartment for Rent" class="property_overview_thumb property_overview_thumb_tiny_thumb fancybox_image thumbnail" rel="apartment-for-rent">
+												<a href="http://thanhnguyend.sgedu.site/optimus_wp/for-rent/" title="Apartment for Rent" class="property_overview_thumb property_overview_thumb_tiny_thumb fancybox_image thumbnail" rel="apartment-for-rent">
 													<img width="200" height="200" src="http://thanhnguyend.sgedu.site/optimus_wp/wp-content/uploads/2016/09/appartment.jpg" alt="Apartment for Rent" style="width:170px;height:170px;">
 												</a>
 											</div>
@@ -129,7 +129,7 @@
 										<div class="wpp_overview_right_column" style="margin-left:200px; ">
 
 											<ul class="wpp_overview_data">
-												<li class="property_title"><a href="http://thanhnguyend.sgedu.site/optimus_wp/property/apartment-unit-3-bedrooms-for-sale/">Apartment for Rent</a></li>
+												<li class="property_title"><a href="http://thanhnguyend.sgedu.site/optimus_wp/for-rent/">Apartment for Rent</a></li>
 												<li class="property_discription"><b>Unit 2 Bedrooms, 2 Bathrooms, full furniture</b></li>
 												<li class="property_prices">$600 / per week</li>
 												<li class="property_tagline"> </li>
@@ -144,7 +144,7 @@
 
 										<div class="wpp_overview_left_column" style="width:180px; height: 180px; float:left;">
 											<div class="property_image">
-												<a href="http://localhost:8888/OPTIMUS/wp-content/uploads/2016/09/Richards_House.jpg" title="House for Rent" class="property_overview_thumb property_overview_thumb_tiny_thumb fancybox_image thumbnail" rel="house-for-rent">
+												<a href="http://thanhnguyend.sgedu.site/optimus_wp/for-rent/" title="House for Rent" class="property_overview_thumb property_overview_thumb_tiny_thumb fancybox_image thumbnail" rel="house-for-rent">
 													<img width="150" height="150" src="http://thanhnguyend.sgedu.site/optimus_wp/wp-content/uploads/2016/09/Richards_House.jpg" alt="House for Rent" style="width:170px;height:170px;">
 												</a>
 											</div>
@@ -154,7 +154,7 @@
 
 											<ul class="wpp_overview_data">
 												<li class="property_title">
-													<a href="http://localhost:8888/OPTIMUS/property/house-for-rent/">House for Rent</a></li>
+													<a href="http://thanhnguyend.sgedu.site/optimus_wp/for-rent/">House for Rent</a></li>
 												<li class="property_discription"><b>Single Room Available!</b> </li>
 												<li class="property_prices">$150 / per week</li>
 												<li class="property_tagline"> </li>
@@ -169,7 +169,7 @@
 
 										<div class="wpp_overview_left_column" style="width:180px; height: 180px; float:left;">
 											<div class="property_image">
-												<a href="http://localhost:8888/OPTIMUS/wp-content/uploads/2016/09/Richards_House.jpg" title="House for Rent" class="property_overview_thumb property_overview_thumb_tiny_thumb fancybox_image thumbnail" rel="house-for-rent">
+												<a href="http://thanhnguyend.sgedu.site/optimus_wp/for-rent/" title="House for Rent" class="property_overview_thumb property_overview_thumb_tiny_thumb fancybox_image thumbnail" rel="house-for-rent">
 													<img width="150" height="150" src="http://thanhnguyend.sgedu.site/optimus_wp/wp-content/uploads/2016/09/townhouse.jpg" alt="House for Rent" style="width:170px;height:170px;">
 												</a>
 											</div>
@@ -179,7 +179,7 @@
 
 											<ul class="wpp_overview_data">
 												<li class="property_title">
-													<a href="http://localhost:8888/OPTIMUS/property/house-for-rent/">Town House for Rent</a></li>
+													<a href="http://thanhnguyend.sgedu.site/optimus_wp/for-rent/">Town House for Rent</a></li>
 												<li class="property_discription"><b>MODERN RESIDENCE AND CLOSE TO ALL AMENITIES</b> </li>
 												<li class="property_prices">$500 / per week</li>
 												<li class="property_tagline"> </li>
@@ -194,7 +194,7 @@
 
 										<div class="wpp_overview_left_column" style="width:180px; height: 180px; float:left;">
 											<div class="property_image">
-												<a href="http://localhost:8888/OPTIMUS/wp-content/uploads/2016/09/Richards_House.jpg" title="House for Rent" class="property_overview_thumb property_overview_thumb_tiny_thumb fancybox_image thumbnail" rel="house-for-rent">
+												<a href="http://thanhnguyend.sgedu.site/optimus_wp/for-sale/" title="House for Rent" class="property_overview_thumb property_overview_thumb_tiny_thumb fancybox_image thumbnail" rel="house-for-rent">
 													<img width="150" height="150" src="http://thanhnguyend.sgedu.site/optimus_wp/wp-content/uploads/2016/09/villas4.jpg" alt="House for Rent" style="width:170px;height:170px;">
 												</a>
 											</div>
@@ -204,7 +204,7 @@
 
 											<ul class="wpp_overview_data">
 												<li class="property_title">
-													<a href="http://localhost:8888/OPTIMUS/property/house-for-rent/">Villa For Sale</a></li>
+													<a href="http://thanhnguyend.sgedu.site/optimus_wp/for-sale/">Villa For Sale</a></li>
 												<li class="property_discription"><b>Boasting Ocean View</b> </li>
 												<li class="property_prices">$5,000,000</li>
 												<li class="property_tagline"> </li>

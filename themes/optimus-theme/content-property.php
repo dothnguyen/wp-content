@@ -7,7 +7,7 @@ $price = get_post_meta(get_the_ID(), 'price', true);
 
 $bedrooms =  get_post_meta(get_the_ID(), 'bedrooms', true);
 $bathrooms = get_post_meta(get_the_ID(), 'bathrooms', true);
-$garage = get_post_meta(get_the_ID(), 'garages', true);
+$garage = get_post_meta(get_the_ID(), 'car_park', true);
 
 $formatted_address = get_post_meta(get_the_ID(), 'formatted_address', true);
 
