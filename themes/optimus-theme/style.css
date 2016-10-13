@@ -151,12 +151,13 @@ hr.section-divider:after {
 
 }
 .carousel-caption h4 {
-  background: #54397e;
-  background: rgba(40, 63, 165, 0.7);
+  background: rgba(40, 63, 165, 0.3);
   padding: 15px;
   color: #fff;
   max-width: 55%;
   margin-bottom: 4px;
+  font-size: 2em;
+  font-weight: bolder;
 }
 
 .button {
@@ -206,4 +207,13 @@ hr.section-divider:after {
   left: 0px;
   background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAACjElEQVRIie1UTWsTURQ9dzKpofQLobQFlxqENF1JG0GE6sKuRLDtTKaBkJUIRdwpba2g9ge48gMEUUyTbrUutFmk1X6Q7kxDgi1YUSmlpsGYiTXtuy7GCYnaSRu3PczAfe/dd8695z0ecIAKsFVK0DQNLpcL8Xi8KgHZalFRNWe7uyMs2+RtkBQIjQerU/k3uVceHhmdyed/8NbWFg8OXrlXDY+020JdXf2NQMB/yuE4hHw+j5yur1df7h9QvQMXpiKRHSEECyF4cvJlQVG149VwlZ1BX58fsn1H7e29+OhMd7cEAMyM6PTMNAgfFUWrJSIAQgCAYAKIAECABACABGFt7fPPaDRqjItVqyrqG5vGAn7/kMfTBYMIyGQyeD0VMZKYweYGM2ZjpnR+eWVl8V08fnYiNP6t1Jbzc3PzbNryP38stsiKqp0uWuTz+eBqd9/s6uo02vpdPTOXxZuZDB7cfwgQGa0TIEmS7nA4PhhDkgBgdXV1FkTzRYHCtjjS4XZ3mGQmSsdEhKbGRqhqPwRz0ZOlRKImGBy/FA4F31gd8tG2tjaZmf+VUybS2tpaNpfeTMsADu+2xxRw2O12ENFftpTG6XQat26PQZIIzEA2m/1SKBSGGXhhWZmiaifezs7yfhGdnmFF1TqtuM0OksvvlzMnPZ4mq+RkMoVsNlu83ImlxDqATxUFwqHg94aGhsc9PeeuNjc372pRMpnExsZX5HI5xBZjd3aEuBsOBTcs7TGherXaa9eHIqlUioUQltYIIXhkZPT5XnjL7qXi1Wpkm6w5nccGWlpanLJNlkGQyEw1Pui6rs8tLFx+9vTJq30JlKK/3ycRCQkSFZ8Dcwszi4lwUOylgwNUxC8cBKAS7hIWzwAAAABJRU5ErkJggg==") no-repeat left center transparent;
   background-size: 100% 100%;
+}
+
+.widget-text .site-info {
+  color: #6B6B6B;
+  font-size: 12px;
+}
+
+#wp-calendar .table-striped>tbody>tr:nth-of-type(odd) {
+  background-color: transparent;
 }
